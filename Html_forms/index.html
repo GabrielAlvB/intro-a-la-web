@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- etiqueta form para hacer un formulario--> 
+    <form>
+        <label class="descripcion" for="Nombre" autocomplete="off">Ingresa tu nombre</label>
+        <input class="entrada" type="text" name="Nombre" placeholder="Ingresa nombre"/> <!-- abre y cierra en la misma linea
+//se recomienda cerrar para indicar que termina en una linea 
+"/>" -->
+<!--input va con un name y label, para guardar la variable-->
+
+        <label class="descripcion" for="Numero">Dame un numero</label>
+        <input class="entrada" type="number" name="Numero"/>    
+
+        <label class="descripcion" for="Telefono">Dame tu Telefono</label>
+        <input class="entrada" type="tel" name="Telefono"/>
+        <!--en un celular, la input tel, nos daria puro numero-->
+        <!--para desactivar el autocompletado del html
+        es autocomplete="off"-->
+
+        <label class="descripcion" for="Email">Ingresa correo</label>
+        <input class="entrada" type="email" name="Email">
+
+        <label class="descripcion" for="calendario">Calendario</label>
+        <input class="entrada" type="date" name="calendario">
+
+        <label class="descripcion" for="Rango">Rango de numero</label>
+        <input class="entrada" type="range" name="Rango" max="10" min="0">
+
+        <label class="descripcion" for="color">Escoge un color</label>
+        <input class="entrada" type="color" name="color">
+        
+        <label class="descripcion" for="Azul">Azul</label>
+        <input class="entrada" type="checkbox" name="Azul">
+        
+        <label class="descripcion" for="Mazda">Mazda</label>
+        <input class="entrada" type="radio" name="Autos" value="Mazda">
+        
+        <label class="descripcion" for="Mazda">Volvo</label>
+        <input class="entrada" type="radio" name="Autos" value="Volvo">
+
+        <label class="descripcion" for="Mazda">Tesla</label>
+        <input class="entrada" type="radio" name="Autos" value="Tesla">
+<!--los RADIO buttons comparten el mismo NAME="AUTOS"
+Y DEVUELVE VALUE="VOLVO"-->
+<label class="descripcion" for="Historia">Coloca tu historia</label>
+<textarea class="texto" name="Historia" id="" cols="30" rows="10"></textarea>
+
+        <input class="entrada" type="submit"/>
+        <!--submit es para subir (enviar) detecta idioma del navegador
+        es como bottom pero es mejor cuando envias formularios -->
+
+        <!--placeholder es algo que va en input pero en grises
+        -->
+
+
+    </form>
+</body>
+</html>
