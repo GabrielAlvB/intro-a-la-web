@@ -1,0 +1,3 @@
+para hacer un archivo txt usamos el comando nano archivo.txt asi podemos crear y 
+editar el archivo, dentro de la terminal.
+:)
