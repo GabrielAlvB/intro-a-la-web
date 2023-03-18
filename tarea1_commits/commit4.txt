@@ -2,3 +2,6 @@ Well if we use git status, nothig will change but we know that there's a
 change because we made it in github, how do we know that our local
 repository doesn't have changes?
 
+
+if we don't add a commit we CAN'T upload the changes that we have made.
+
