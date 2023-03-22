@@ -1,0 +1,84 @@
+.mainclass{
+    border: solid 1px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left{
+    /* border: solid 1px red; */
+    width: 30%; /*Percentage of the left side*/
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #002868;
+/* this make us a blue block on the left side*/
+}
+
+/*this start inmideately after our left side, if 
+left side is deleted, the right side will be
+aligned to the left*/
+.right{
+    /* border: solid 1px blue; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /*WITH THIS, we use left and right as colums*/
+    justify-content: space-between;/*also space*/
+    align-items: flex-end;
+    background: #002868;
+
+}
+
+/*this up and down elements give us 
+the white background*/
+
+.up{
+    /* this 90% let us the other 10% to be the background
+    also up2 is at 90% and let us see the blue background*/
+    width: 90%;
+    height: 40%;
+    background: white;
+}
+
+.down{
+    /* border: solid 1px pink; */
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end; 
+    /* if we use flex start, the red block would begin at the start*/
+    background: white;
+}
+.up2{
+    /* border: solid 1px yellow; */
+    width: 90%;
+    height: 40%;
+    display: flex; /*we need this to us flex content*/
+    justify-content: flex-end;/*to align until the right border*/
+    background: white;
+}
+
+.down2  {
+    /* border: solid 1px pink; */
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background: white;
+}
+
+.red{
+    width: 90%;
+    height: 90%;
+    background: #EF2B2D;
+}
+
+.red2{
+   
+    width: 95%;
+    height: 90%;
+    background: #EF2B2D;
+}
