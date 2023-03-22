@@ -1,0 +1,2 @@
+This project is about clonning google search, in html, we will 
+use our previous knowledge that we have acquiered
