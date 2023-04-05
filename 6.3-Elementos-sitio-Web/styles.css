@@ -10,10 +10,16 @@ header{
     
 }
 
+.secciones{
+    width: 100%;
+    text-align: center;
+}
+
 section{
 display: inline-block;
 
 }
+
 
 #cuerpo{
 
