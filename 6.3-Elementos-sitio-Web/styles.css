@@ -17,9 +17,18 @@ header{
 
 section{
 display: inline-block;
-
+margin: 25px;
+background-color: #00b4d8;
+padding: 25px;
+border-radius: 14px;
+box-shadow: 5px 5px 15px;
 }
 
+.beach{
+width: 250px;
+height: 150px;
+border-radius: 14px;
+}
 
 #cuerpo{
 
