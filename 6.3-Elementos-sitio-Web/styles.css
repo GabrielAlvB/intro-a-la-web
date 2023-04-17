@@ -1,6 +1,7 @@
 /*El # indica el id*/
 body{
     background-color: #caf0f8;
+    font-family: 'Ubuntu', sans-serif;
 }
 header{
     background-color: gray;
@@ -30,6 +31,10 @@ height: 150px;
 border-radius: 14px;
 }
 
+.descripcion{
+    width: 250px;
+}
+/*using google fonts could help us*/
 #cuerpo{
 
 }
