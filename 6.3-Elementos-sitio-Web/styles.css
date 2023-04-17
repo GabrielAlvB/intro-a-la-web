@@ -22,7 +22,8 @@ margin: 25px;
 background-color: #00b4d8;
 padding: 25px;
 border-radius: 14px;
-box-shadow: 5px 5px 15px;
+box-shadow: 5px 5px 15px black;
+border: 1px solid gray;
 }
 
 .beach{
@@ -36,5 +37,8 @@ border-radius: 14px;
 }
 /*using google fonts could help us*/
 #cuerpo{
+    background-color: #90e0ef;
+    padding: 20px;
+    margin: 0 20px;
 
 }
