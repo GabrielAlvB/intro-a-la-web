@@ -1,3 +1,23 @@
 .cointainer{
-    
+    padding: 30px;
+    margin: 20px;
+    border: solid crimson;
+    background-color: antiquewhite;
+    display: flex;
+    /*flex direction 
+    EJE PRINCIPAL ROW POR DEFECTOodify align items and justify (vertical or colum aligment)*/
+    flex-direction: row;/*colum, row-reverse, colum-reverse*/
+    justify-content: space-between; 
+    /*EJE SECUNDARIO, space-around. end, space-evently*/
+    align-items: center;
+    /*EJE SECUNDARIO, vertical: */
+    flex-wrap: wrap;
+}
+
+.item{
+    padding: 10px;
+    margin: 5px;
+    border: solid black;
+    background-color: pink;
+
 }
