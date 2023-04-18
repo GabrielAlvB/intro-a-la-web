@@ -3,15 +3,22 @@
     margin: 20px;
     border: solid crimson;
     background-color: antiquewhite;
-    display: flex;
+    
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100px 100px 100px 100px;
+    
+    /*display: flex;
     /*flex direction 
     EJE PRINCIPAL ROW POR DEFECTOodify align items and justify (vertical or colum aligment)*/
-    flex-direction: row;/*colum, row-reverse, colum-reverse*/
-    justify-content: space-between; 
+    /*flex-direction: row;/*colum, row-reverse, colum-reverse*/
+    /*justify-content: space-between; 
     /*EJE SECUNDARIO, space-around. end, space-evently*/
-    align-items: center;
+    /*align-items: center;
     /*EJE SECUNDARIO, vertical: */
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
+    
+  
 }
 
 .item{
